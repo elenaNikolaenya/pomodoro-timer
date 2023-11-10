@@ -15,7 +15,23 @@
 * если снова кликнуть на кнопку, то отсчет возобновится со значения, на котором остановились
 * когда таймер дойдет до нуля, он должен сброситься в начальное состояние: **25:00** и текст на кнопке снова **start**
 
-### Демо:
+# Homework for the module "Advanced work with functions"
+
+Have you heard about the Pomodoro timer 🍅? Or maybe you've even used it? If not, you can read about it [here](https://lifehacker.ru/special/pomodoro/).
+
+You will have to do something similar as your homework.  The layout is already ready, but if you want, you can change the design to your taste.
+
+The task is divided into two levels of difficulty. The first is mandatory, the second is optional.
+
+## Basic level
+Implement a countdown timer from 25 minutes to zero. You can speed it up.
+
+### Requirements:
+* when you click on the **start** button the text on it changes to **stop**
+* when you click on **stop** the timer stops, but **does not reset**, the text on the button changes again to **start**
+* if you click on the button again, the countdown will resume with the values ​​at which it stopped
+* when the timer reaches zero, it should go to the initial state: **25:00** and the text on the button again **start**
+### Демо/Demo:
 ![Basic level](./assets/basic.gif)
 
 
@@ -27,6 +43,13 @@
 * при нажатии на кнопку сброса должно устанавливаться **начальное значение** таймера в зависимости от выбранного режима
 * переключение между режимами и кнопка сброса **останавливают** таймер (то есть отсчет должен заморозиться), даже если действие выполнено во время работы таймера
 
-### Демо:
-![Advanced level](./assets/advanced.gif)
+## Advanced level
+In addition to the basic level, a rest mode **break** and a reset button will be added (next to the stop / start button)
 
+### Requirements:
+* when switching between modes, the time changes: **25:00** for pomodoro and **05:00** for break
+* when you press the reset button, the **initial value** of the timer should be set depending on the selected mode
+* switching between modes and the reset button **stop** the timer (the countdown should freeze), even if the action is performed while the timer is running
+
+### Демо/Demo:
+![Advanced level](./assets/advanced.gif)
